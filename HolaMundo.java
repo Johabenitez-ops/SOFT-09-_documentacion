@@ -1,7 +1,7 @@
 public class HolaMundo {
     public static void main(String[] args) {
         System.out.println("¡Hola,  mundo desde Java!");
-        saludar("Joha nna");
+        saludar("nombre");
         sumar(5, 3);
     }
     public static void saludar(String nombre) {
@@ -11,4 +11,5 @@ public class HolaMundo {
         int resultado = a + b;
         System.out.println("La suma de " + a + " + " + b + " es: " + resultado);
         }
+       // Este es un comentario de prueba.
     }
